@@ -83,13 +83,13 @@ const SettingsPage = () => {
       <Navbar />
       <div className="w-full flex">
         {/* Left half of the screen - background styling */}
-        <div className="w-1/2 h-full flex flex-col bg-[#282c34] items-center justify-center"></div>
-        <div className="w-1/2 py-8">
+        <div className="w-6/12 h-full flex flex-col bg-[#282c34] "></div>
+        <div className="w-full py-8">
           <h2 className="font-bold text-xl px-4 py-2">Profile Account</h2>
           {errorMessage && (
             <Alert className="my-6 mx-4" message={errorMessage} type="error" />
           )}
-
+          
           <Form
             name="basic"
             labelCol={{ span: 8 }}
